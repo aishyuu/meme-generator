@@ -1,0 +1,74 @@
+.header--site {
+    background-image:linear-gradient(to right, rgb(128, 0, 128), rgb(221, 0, 221));
+    padding: 0.5px;
+}
+
+.header--image {
+    width: 50px;
+}
+
+.header--text {
+    font-family: Oswald, sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-left: 3%;
+}
+
+.text--boxes {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 45px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.submit--button {
+    grid-column: 1 / -1;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-image:linear-gradient(to right, rgb(128, 0, 128), rgb(221, 0, 221));
+
+}
+
+.meme{
+    position: relative;
+}
+
+.meme--image {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+}
+
+.meme--text{
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-size: 4em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    font-family: "Anton", sans-serif;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.bottom{
+    bottom: 0;
+}
+
+.top {
+    top: 0;
+}
